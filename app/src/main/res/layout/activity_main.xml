@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="167dp">
+
+            <TextView
+                android:id="@+id/tvHistorico"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnGuardar"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="💾" />
+
+            <Button
+                android:id="@+id/btnAC"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/btnBorrar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="⌫" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="÷" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnMultiplicacion"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="X" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btnMenos"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:background="@drawable/circular_shape"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btnMas"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnComa"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:background="@drawable/circular_shape"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="," />
+
+            <Button
+                android:id="@+id/btnIgual"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circular_shape"
+                android:text="=" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
